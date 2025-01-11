@@ -5,6 +5,9 @@ function convert() {
   const convertTo = document.getElementById("convert-to").value;
   let result;
 
+
+  
+
   if (isNaN(temperature)) {
     result = "Invalid input";
   } else if (unit == "Celsius" && convertTo == "Fahrenheit") {
