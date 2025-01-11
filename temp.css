@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.main-container {
+  display: flex;
+  width: 45%;
+  background-color: #e0f0f0;
+  border: 2px solid #006c6c;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.converter-input {
+  display: flex;
+}
+#temperature {
+  width: 210px;
+}
+.converter,
+.result {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.converter {
+  flex: 1;
+
+  background-color: #ffffff;
+}
+
+.converter h2 {
+  margin-bottom: 20px;
+  position: relative;
+  left: -30px;
+  color: #006c6c;
+}
+
+.converter label {
+  margin: 10px 0 5px;
+  position: relative;
+  left: -100px;
+  color: #006c6c;
+}
+
+.converter input,
+.converter select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.converter button {
+  background-color: #006c6c;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.converter button:hover {
+  background-color: #004d4d;
+}
+
+.result {
+  flex: 1;
+  background-color: #006c6c;
+  color: #ffffff;
+  font-size: 45px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+#unit {
+  width: 55px;
+  color: black;
+}
